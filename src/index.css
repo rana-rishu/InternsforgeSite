@@ -1,0 +1,20 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+html {
+  scrollbar-gutter: stable;
+}
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  color-scheme: light dark;
+  /* Changed background color to light gray so the green component stands out */
+  background-color: white;
+  color: #333; /* Default text color for the page */
+}
+body {
+  /* margin: 0px;
+  padding: 10px; */
+  /* Removed overflow-x: hidden from body as it's generally best applied to specific containers */
+}

@@ -1,0 +1,108 @@
+.hero-container {
+  width: 100%;
+  height: 100%;
+  background: #279e6f;
+  clip-path: url(#heroShape);
+  -webkit-clip-path: url(#heroShape);
+  display: flex;
+  justify-content: center;
+  position: relative;
+  align-items: center;
+  color: white;
+  overflow: hidden;
+  box-shadow: inset 0 0 200px rgba(0, 0, 0, 0.35);
+}
+
+.hero-left {
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+
+.mainText {
+  font-size: 3vw;
+  padding: 0 2vw;
+  margin: 0 3vw;
+  font-weight: 600;
+  margin-bottom: 1vw;
+  font-family: sans-serif;
+}
+
+.helperText {
+  width: 80%;
+  font-size: 1.2vw;
+  padding: 0 2vw;
+  margin: 1vw 3vw;
+  font-weight: 400;
+  font-family: sans-serif;
+}
+
+.explore-btn {
+  /* font-size: 1.2vw; */
+  font-size: 1.5vh;
+  color: white;
+  font-family: sans-serif;
+  margin: 0.5vw 5vw;
+  padding: 0.5vw 2vw;
+  background: rgb(8, 8, 8);
+  border-radius: 1vh;
+  border-color: rgb(8, 8, 8);
+  cursor: pointer;
+  border: none;
+  transition: transform 0.3s ease;
+}
+
+.companyName {
+  color: rgb(254, 199, 41);
+  font-weight: 900;
+}
+
+.hero-right {
+  width: 100%;
+  height: 100%;
+  flex: 1;
+}
+
+.hero-right img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  pointer-events: none;
+  user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+  -webkit-tap-highlight-color: transparent;
+  touch-action: none;
+}
+
+.explore-btn:hover {
+  animation: vibrate 0.3s linear 3;
+  background: linear-gradient(rgba(8, 8, 8), #131313);
+}
+
+@keyframes vibrate {
+  0% {
+    transform: translate(0);
+  }
+  20% {
+    transform: translate(-1px, 1px);
+  }
+  40% {
+    transform: translate(-1px, -1px);
+  }
+  60% {
+    transform: translate(1px, 1px);
+  }
+  80% {
+    transform: translate(1px, -1px);
+  }
+  100% {
+    transform: translate(0);
+  }
+}

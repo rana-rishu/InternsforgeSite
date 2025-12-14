@@ -1,0 +1,253 @@
+.about-container {
+  width: 100%;
+  min-height: 100vh;
+  padding: 80px 24px;
+  background: linear-gradient(135deg, #f9fafb 0%, #ffffff 100%);
+}
+
+.about-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.about-hero {
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.about-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 20px;
+  background: linear-gradient(135deg, #a0fecf9e 0%, #7bffbda0 100%);
+  border-radius: 50px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 8px rgba(123, 255, 189, 0.4);
+}
+
+.about-badge-text {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 600;
+  color: #0d9488;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.about-main-title {
+  font-size: clamp(36px, 6vw, 52px);
+  font-weight: 800;
+  color: #111827;
+  margin: 0 0 16px 0;
+  line-height: 1.2;
+}
+
+.about-subtitle {
+  font-size: clamp(18px, 3vw, 22px);
+  color: #6b7280;
+  margin: 0;
+  line-height: 1.6;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about-image-container {
+  width: 100%;
+  margin-bottom: 64px;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.about-image-placeholder {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, #e0f2fe 0%, #dbeafe 50%, #e0e7ff 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.about-image-placeholder::before {
+  content: "";
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: radial-gradient(
+    circle,
+    rgba(13, 148, 136, 0.1) 0%,
+    transparent 70%
+  );
+  animation: pulse 8s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%,
+  100% {
+    transform: scale(1);
+    opacity: 0.5;
+  }
+  50% {
+    transform: scale(1.1);
+    opacity: 0.3;
+  }
+}
+
+.image-placeholder-content {
+  text-align: center;
+  z-index: 1;
+  position: relative;
+}
+
+.image-placeholder-icon {
+  width: 80px;
+  height: 80px;
+  color: #0d9488;
+  margin-bottom: 16px;
+  stroke-width: 1.5;
+}
+
+.image-placeholder-text {
+  font-size: 20px;
+  font-weight: 600;
+  color: #374151;
+  margin: 0 0 8px 0;
+}
+
+.image-placeholder-subtext {
+  font-size: 14px;
+  color: #6b7280;
+  margin: 0;
+}
+
+.about-image {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  display: block;
+}
+
+.about-text-content {
+  background: #ffffff;
+  padding: 48px;
+  border-radius: 16px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  border: 1px solid #f3f4f6;
+}
+
+.about-section {
+  margin-bottom: 40px;
+}
+
+.about-section:last-of-type {
+  margin-bottom: 48px;
+}
+
+.about-section-title {
+  font-size: clamp(24px, 4vw, 32px);
+  font-weight: 700;
+  color: #0d9488;
+  margin: 0 0 16px 0;
+  line-height: 1.3;
+}
+
+.about-text {
+  font-size: clamp(16px, 2vw, 18px);
+  color: #4b5563;
+  line-height: 1.8;
+  margin: 0;
+}
+
+.about-stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 24px;
+  padding-top: 32px;
+  border-top: 2px solid #e5e7eb;
+}
+
+.stat-card {
+  text-align: center;
+  padding: 24px;
+  background: linear-gradient(135deg, #f0fdfa 0%, #f9fafb 100%);
+  border-radius: 12px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.stat-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(13, 148, 136, 0.15);
+}
+
+.stat-number {
+  font-size: clamp(36px, 5vw, 48px);
+  font-weight: 800;
+  color: #0d9488;
+  margin-bottom: 8px;
+  line-height: 1;
+}
+
+.stat-label {
+  font-size: clamp(14px, 2vw, 16px);
+  color: #374151;
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  .about-container {
+    padding: 60px 20px;
+  }
+
+  .about-hero {
+    margin-bottom: 32px;
+  }
+
+  .about-image-placeholder,
+  .about-image {
+    height: 300px;
+  }
+
+  .about-image-container {
+    margin-bottom: 48px;
+  }
+
+  .about-text-content {
+    padding: 32px 24px;
+  }
+
+  .about-section {
+    margin-bottom: 32px;
+  }
+
+  .about-stats {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-text-content {
+    padding: 24px 16px;
+  }
+
+  .about-image-placeholder,
+  .about-image {
+    height: 250px;
+  }
+
+  .image-placeholder-icon {
+    width: 60px;
+    height: 60px;
+  }
+
+  .about-stats {
+    grid-template-columns: 1fr;
+  }
+}
