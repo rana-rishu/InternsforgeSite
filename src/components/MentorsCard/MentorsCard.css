@@ -1,0 +1,140 @@
+.mentors {
+  padding: 2rem 1.5rem;
+  width: 100%;
+}
+
+.mentors__container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.mentors__header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.mentors__badge {
+  display: inline-block;
+  background-color: #ccfbf1;
+  color: #0d9488;
+  padding: 0.25rem 1rem;
+  border-radius: 9999px;
+  font-size: 0.875rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.mentors__title {
+  font-size: 2.25rem;
+  font-weight: 700;
+  color: #111827;
+  margin-bottom: 1rem;
+}
+
+.mentors__description {
+  color: #4b5563;
+  max-width: 42rem;
+  margin: 0 auto;
+}
+
+.mentors__brand-highlight {
+  font-weight: 600;
+  color: #0d9488;
+}
+
+.mentors__grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+}
+
+@media (min-width: 640px) {
+  .mentors__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .mentors__grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.mentors__card {
+  border-radius: 0.75rem;
+  background: #279e6f;
+  box-shadow: inset 0 0 200px rgba(0, 0, 0, 0.05);
+  padding: 1.5rem;
+  border: 1px solid #f3f4f6;
+  transition: all 0.3s;
+}
+
+.mentors__card:hover {
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+.mentors__card-content {
+  text-align: left;
+}
+
+.mentors__avatar {
+  width: 4rem;
+  height: 4rem;
+  background-color: #ffedd5;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.875rem;
+  margin-bottom: 1rem;
+  transition: transform 0.3s;
+}
+
+.mentors__card:hover .mentors__avatar {
+  transform: scale(1.1);
+}
+
+.mentors__name {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #111827;
+  margin-bottom: 0.5rem;
+}
+
+.mentors__role {
+  font-size: 0.875rem;
+  color: #4b5563;
+  margin-bottom: 0.25rem;
+}
+
+.mentors__company {
+  font-size: 1rem;
+  color: #ffffff;
+  margin-bottom: 0.25rem;
+  font-weight: 500;
+}
+
+.mentors__experience-badge {
+  display: inline-block;
+  background-color: #f0fdfa;
+  color: #0d9488;
+  padding: 0.25rem 0.75rem;
+  border-radius: 9999px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+}
+
+.mentors__divider {
+  padding-top: 0.75rem;
+  border-top: 1px solid #e5e7eb;
+}
+
+.mentors__specialization {
+  display: flex;
+  align-items: center;
+  margin: 1px;
+  justify-content: center;
+  font-size: 0.875rem;
+  color: #374151;
+}

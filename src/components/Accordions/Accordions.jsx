@@ -100,7 +100,7 @@ const styles = {
 const styleSheet = document.createElement("style");
 styleSheet.textContent = `
   button:hover {
-    background-color: #f9fafb !important;
+    background-color: #9b9fa1ff !important;
   }
   @media (max-width: 768px) {
     h2 {
