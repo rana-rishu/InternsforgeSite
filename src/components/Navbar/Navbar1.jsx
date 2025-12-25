@@ -1,6 +1,6 @@
 import { useState, useRef } from "react";
 import { Link } from "react-router-dom";
-import logo from "../../assets/logo.svg";
+import logo from "../../assets/IL logo2.jpeg";
 import "./Navbar1.css";
 import navbar from "../../utils/Navbar.js";
 

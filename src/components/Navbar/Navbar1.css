@@ -29,14 +29,14 @@
 }
 
 .logo-link {
-  display: flex;
+  display:flexbox;
   align-items: center;
   z-index: 10;
 }
 
 .logo {
-  width: auto;
-  height: auto;
+  width: 20%;
+  height: fit-content;
 }
 
 .navcomponents {
