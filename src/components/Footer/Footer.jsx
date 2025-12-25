@@ -70,7 +70,7 @@ function Footer() {
         </div>
       </footer>
       <div className="footer-copywrite">
-        <p>© 2025 Rishu Rana. All Rights Reserved.</p>
+        <p>© 2025. All Rights Reserved.</p>
         <div className="social">
           {Social.map(({ logoname, link }) => (
             <a href={link} key={logoname}>
