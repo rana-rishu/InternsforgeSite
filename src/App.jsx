@@ -9,6 +9,7 @@ import RefundPolicy from "./pages/RefundPolicy/RefundPolicy.jsx";
 import TermsConditions from "./pages/TermsConditions/TermsConditions.jsx";
 import Courses from "./pages/Courses/Courses.jsx";
 import Coursedata from "./utils/data.js";
+import ContactUs from "./pages/ContactUs/ContactUs.jsx";
 
 const RootLayout = () => {
   return (
@@ -72,6 +73,10 @@ const router = createBrowserRouter([
       {
         path: "/termsconditions",
         element: <TermsConditions />,
+      },
+      {
+        path: "/contactus",
+        element: <ContactUs />,
       },
     ],
   },

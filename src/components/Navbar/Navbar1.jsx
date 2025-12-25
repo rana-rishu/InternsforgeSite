@@ -65,7 +65,7 @@ function Navbar1() {
         </ul>
 
         {/* Desktop Contact */}
-        <Link to="/" className="contact-link">
+        <Link to="/contactus" className="contact-link">
           <button className="contact">Contact us</button>
         </Link>
 
@@ -95,9 +95,8 @@ function Navbar1() {
                 {activeMenu.map((item, index) => (
                   <div
                     key={index}
-                    className={`category-item ${
-                      selectedCategory === item.category ? "active" : ""
-                    }`}
+                    className={`category-item ${selectedCategory === item.category ? "active" : ""
+                      }`}
                     onMouseEnter={() => setSelectedCategory(item.category)}
                   >
                     {item.category}

@@ -15,7 +15,11 @@ const navbar = [
                         slug: "amazon-web-services",
                         duration: "10 weeks",
                     },
-                    { name: "Data Science", slug: "data-science", duration: "12 weeks" },
+                    {
+                        name: "Data Science",
+                        slug: "data-science",
+                        duration: "12 weeks",
+                    },
                     {
                         name: "Data Analytics",
                         slug: "data-analytics",
