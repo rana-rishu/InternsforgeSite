@@ -32,7 +32,7 @@ export const categories = [
 export const faqs = [
     {
         q: "How do I get started?",
-        a: "Getting started is easy! Simply sign up for an account, complete your profile, and you'll be ready to go in just a few minutes.",
+        a: "To sign up for a course: Clicking on the Our Course section will bring up the course page.Choose a Course.Select Enroll Now.For registration, fill out the form.Our Team will get in touch with you.",
     },
     {
         q: "What payment methods do you accept?",

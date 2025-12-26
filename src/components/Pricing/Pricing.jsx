@@ -3,6 +3,7 @@ import { CheckCircle } from "lucide-react";
 const Pricing = ({ course }) => {
   const price = course?.coursePrice || "5000";
   const popularprice = course?.coursePoluparPrice || "8010";
+  const paylink = course?.paylink || "";
 
   const plans = [
     {
@@ -77,7 +78,7 @@ const Pricing = ({ course }) => {
                   plan.popular
                     ? "pricing__button pricing__button--popular"
                     : "pricing__button pricing__button--standard"
-                }
+                } onClick={() => window.open(paylink, "")}
               >
                 Get Started
               </button>

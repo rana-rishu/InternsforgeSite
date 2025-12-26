@@ -30,7 +30,7 @@ const RefundPolicy = () => {
             <ul className="policy-list">
               <li>
                 <strong>Company</strong> (referred to as either "the Company",
-                "We", "Us" or "Our" in this Agreement) refers to internsforge.
+                "We", "Us" or "Our" in this Agreement) refers to Internsloom.
               </li>
               <li>
                 <strong>Goods</strong> refer to the items offered for sale on
@@ -44,9 +44,9 @@ const RefundPolicy = () => {
                 <strong>Service</strong> refers to the website.
               </li>
               <li>
-                <strong>Website</strong> refers to internsforge, accessible from{" "}
-                <a href="https://www.internsforge.com/" className="policy-link">
-                  https://www.internsforge.com/
+                <strong>Website</strong> refers to Internsloom, accessible from{" "}
+                <a href="https://www.Internsloom.com/" className="policy-link">
+                  https://www.Internsloom.com/
                 </a>
               </li>
               <li>
@@ -77,8 +77,8 @@ const RefundPolicy = () => {
             In order to exercise your right of cancellation, you must inform us
             of your decision by means of a clear statement. You can inform us of
             your decision by email:{" "}
-            <a href="mailto:support@internsforge.com" className="policy-link">
-              support@internsforge.com
+            <a href="mailto:support@Internsloom.com" className="policy-link">
+              support@Internsloom.com
             </a>
           </p>
           <p className="policy-text">
@@ -103,8 +103,8 @@ const RefundPolicy = () => {
           </p>
           <p className="policy-text">
             Email your purchase receipt:{" "}
-            <a href="mailto:support@internsforge.com" className="policy-link">
-              support@internsforge.com
+            <a href="mailto:support@Internsloom.com" className="policy-link">
+              support@Internsloom.com
             </a>
           </p>
         </section>
@@ -114,11 +114,11 @@ const RefundPolicy = () => {
             4. Conditions for Refund from Our End
           </h2>
           <p className="policy-text">
-            internsforge reserves the right to postpone/cancel the
+            Internsloom reserves the right to postpone/cancel the
             training/internship program because of the insufficient number of
             enrollments, unavailability of the slots and unavailability of
             mentors (under certain condition). You will be informed for the same
-            and internsforge is liable to refund the full amount without any
+            and Internsloom is liable to refund the full amount without any
             deduction.
           </p>
         </section>
@@ -131,8 +131,8 @@ const RefundPolicy = () => {
           </p>
           <p className="policy-text">
             By email:{" "}
-            <a href="mailto:support@internsforge.com" className="policy-link">
-              support@internsforge.com
+            <a href="mailto:support@Internsloom.com" className="policy-link">
+              support@Internsloom.com
             </a>
           </p>
         </section>

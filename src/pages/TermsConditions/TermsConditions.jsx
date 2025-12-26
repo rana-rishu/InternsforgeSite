@@ -11,15 +11,15 @@ const TermsConditions = () => {
           <h2 className="terms-section-title">1. Terms and Conditions</h2>
           <p className="terms-text">
             These terms and conditions outline the rules and regulations for the
-            use of internsforge's Website, located at{" "}
-            <a href="http://www.internsforge.com/" className="terms-link">
-              http://www.internsforge.com/
+            use of Internsloom's Website, located at{" "}
+            <a href="http://www.Internsloom.com/" className="terms-link">
+              http://www.Internsloom.com/
             </a>
             .
           </p>
           <p className="terms-text">
             By accessing this website we assume you accept these terms and
-            conditions. Do not continue to use internsforge if you do not agree
+            conditions. Do not continue to use Internsloom if you do not agree
             to take all of the terms and conditions stated on this page.
           </p>
           <p className="terms-text">
@@ -44,8 +44,8 @@ const TermsConditions = () => {
         <section className="terms-section">
           <h2 className="terms-section-title">2. Cookies</h2>
           <p className="terms-text">
-            We employ the use of cookies. By accessing internsforge, you agreed
-            to use cookies in agreement with the internsforge's Privacy Policy.
+            We employ the use of cookies. By accessing Internsloom, you agreed
+            to use cookies in agreement with the Internsloom's Privacy Policy.
           </p>
           <p className="terms-text">
             Most interactive websites use cookies to let us retrieve the user's
@@ -59,36 +59,36 @@ const TermsConditions = () => {
         <section className="terms-section">
           <h2 className="terms-section-title">3. License</h2>
           <p className="terms-text">
-            Unless otherwise stated, internsforge and/or its licensors own the
-            intellectual property rights for all material on internsforge. All
+            Unless otherwise stated, Internsloom and/or its licensors own the
+            intellectual property rights for all material on Internsloom. All
             intellectual property rights are reserved. You may access this from
-            internsforge for your own personal use subjected to restrictions set
+            Internsloom for your own personal use subjected to restrictions set
             in these terms and conditions.
           </p>
           <p className="terms-text">
             <strong>You must not:</strong>
           </p>
           <ul className="terms-list">
-            <li>Republish material from internsforge.</li>
-            <li>Sell, rent, or sub-license material from internsforge.</li>
-            <li>Reproduce, duplicate or copy material from internsforge.</li>
-            <li>Redistribute content from internsforge.</li>
+            <li>Republish material from Internsloom.</li>
+            <li>Sell, rent, or sub-license material from Internsloom.</li>
+            <li>Reproduce, duplicate or copy material from Internsloom.</li>
+            <li>Redistribute content from Internsloom.</li>
           </ul>
           <p className="terms-text">
             Parts of this website offer an opportunity for users to post and
             exchange opinions and information in certain areas of the website.
-            internsforge does not filter, edit, publish or review Comments prior
+            Internsloom does not filter, edit, publish or review Comments prior
             to their presence on the website. Comments do not reflect the views
-            and opinions of internsforge, its agents and/or affiliates. Comments
+            and opinions of Internsloom, its agents and/or affiliates. Comments
             reflect the views and opinions of the person who post their views
             and opinions. To the extent permitted by applicable laws,
-            internsforge shall not be liable for the Comments or for any
+            Internsloom shall not be liable for the Comments or for any
             liability, damages or expenses caused and/or suffered as a result of
             any use of and/or posting of and/or appearance of the Comments on
             this website.
           </p>
           <p className="terms-text">
-            internsforge reserves the right to monitor all Comments and to
+            Internsloom reserves the right to monitor all Comments and to
             remove any Comments which can be considered inappropriate,
             offensive, or causes a breach of these Terms and Conditions.
           </p>
@@ -116,7 +116,7 @@ const TermsConditions = () => {
             </li>
           </ul>
           <p className="terms-text">
-            You hereby grant internsforge a non-exclusive license to use,
+            You hereby grant Internsloom a non-exclusive license to use,
             reproduce, edit and authorize others to use, reproduce and edit any
             of your Comments in any and all forms, formats, or media.
           </p>
@@ -170,7 +170,7 @@ const TermsConditions = () => {
           <p className="terms-text">
             If you are one of the organizations listed in paragraph 2 above and
             are interested in linking to our website, you must inform us by
-            sending an e-mail to internsforge. Please include your name, your
+            sending an e-mail to Internsloom. Please include your name, your
             organization name, and contact information as well as the URL of
             your site, a list of any URLs from which you intend to link to our
             Website, and a list of the URLs on our site to which you would like
@@ -191,7 +191,7 @@ const TermsConditions = () => {
             </li>
           </ul>
           <p className="terms-text">
-            No use of internsforge's logo or other artwork will be allowed for
+            No use of Internsloom's logo or other artwork will be allowed for
             linking absent a trademark license agreement.
           </p>
         </section>

@@ -9,6 +9,7 @@ const HeroSection = ({ course }) => {
   const duration = course?.duration || "8 Weeks";
   const level = course?.level || "Beginner";
   const studentsEnrolled = course?.studentsEnrolled || "500+";
+  const brochurelink = course?.brochurelink || "";
 
   return (
     <section className="hero">
@@ -18,8 +19,8 @@ const HeroSection = ({ course }) => {
             <h1 className="hero__title">{title}</h1>
             <p className="hero__description">{description}</p>
             <div className="hero__button-container">
-              <button className="hero__button--primary">
-                Download Syllabus
+              <button className="hero__button--primary" onClick={() => window.open(brochurelink, '')}>
+                Brochure
               </button>
               <button className="hero__button--primary">Register</button>
             </div>

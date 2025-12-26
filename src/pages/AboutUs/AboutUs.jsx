@@ -10,7 +10,7 @@ const AboutUs = () => {
           <span className="about-badge">
             <p className="about-badge-text">ABOUT US</p>
           </span>
-          <h1 className="about-main-title">Welcome to InternsForge</h1>
+          <h1 className="about-main-title">Welcome to Internsloom</h1>
           <p className="about-subtitle">
             Empowering Students to Bridge the Gap Between Learning and Industry
           </p>
@@ -28,7 +28,7 @@ const AboutUs = () => {
           <section className="about-section">
             <h2 className="about-section-title">Who We Are</h2>
             <p className="about-text">
-              InternsForge is a premier ed-tech platform committed to bridging
+              Internsloom is a premier ed-tech platform committed to bridging
               the gap between academic learning and industry needs. With over
               25+ tailored courses and guidance from 45+ experienced mentors, we
               empower students to achieve their professional goals confidently.
@@ -48,7 +48,7 @@ const AboutUs = () => {
           <section className="about-section">
             <h2 className="about-section-title">What We Offer</h2>
             <p className="about-text">
-              At InternsForge, we offer programs across diverse domains,
+              At Internsloom, we offer programs across diverse domains,
               including IT, engineering, management, and biotechnology, ensuring
               every student finds the perfect path to success. Join us to shape
               your future with confidence and clarity.

@@ -1,5 +1,5 @@
 import "./Footer.css";
-import footerlogo from "../../assets/logo.svg";
+import footerlogo from "../../assets/IL logo.jpeg";
 import facebooklogo from "../../assets/facebook.png";
 import instagramlogo from "../../assets/instagram.png";
 import youtubelogo from "../../assets/youtube.png";
@@ -21,8 +21,7 @@ const Container = [
       { topic: "Privacy Policy", link: "/privacypolicy" },
       { topic: "Refund Policy", link: "/refundpolicy" },
       { topic: "Terms and Conditions", link: "/termsconditions" },
-      { topic: "Careers", link: "" },
-      { topic: "Contact", link: "" },
+      { topic: "Contact Us", link: "/contactus" },
     ],
   },
   {
@@ -43,7 +42,7 @@ function Footer() {
           <div className="footerlogo">
             <a className="logo-link">
               <img className="logo" src={footerlogo} />
-              Internsforge
+              Internsloom Pvt Ltd
             </a>
             <p className="filler">Seamless learning for Brighter Future</p>
           </div>

@@ -22,7 +22,7 @@ const Component = () => {
         <div className="hero-left">
           <p className="mainText">
             Access the world's best learning course with{" "}
-            <span className="companyName">Internsforge</span>
+            <span className="companyName">Internsloom</span>
           </p>
           <p className="helperText">
             Discover a world of knowledge with the cutting-edge online courses

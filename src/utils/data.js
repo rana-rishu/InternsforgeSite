@@ -26,6 +26,8 @@ const Coursedata = [
     duration: "12 Weeks",
     level: "Beginner",
     studentsEnrolled: "500+",
+    brochurelink: "https://drive.google.com",
+    paylink: "https://rzp.io/rzp/9NYQfZw",
   }, {
     CourseName: "Data Analytics",
     slug: "data-analytics",

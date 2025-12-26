@@ -85,7 +85,7 @@ const MentorsCard = () => {
           <p className="mentors__description">
             We are made up by experts, enthusiasts and thinkers who design your
             professional success at{" "}
-            <span className="mentors__brand-highlight">InternsForge</span>
+            <span className="mentors__brand-highlight">Internsloom</span>
           </p>
         </div>
         <div className="mentors__grid">
