@@ -4,7 +4,7 @@ const Coursedata = [
     slug: "app-developement",
     Description:
       "Turn your app ideas into reality with our app development courses. Whether you’re interested in iOS or Android development. From programming languages like Swift and Kotlin to frameworks like React Native, our courses provide hands-on experience and practical insights to help you succeed in the competitive world of app development.",
-    duration: "8 Weeks",
+    duration: "2 months",
     level: "Beginner",
     studentsEnrolled: "500+",
     coursePrice: "5000",
@@ -15,7 +15,7 @@ const Coursedata = [
     slug: "amazon-web-services",
     Description:
       "Amazon Web Services (AWS) is a leading cloud platform offering a wide range of scalable and cost-effective cloud computing solutions.With services spanning computing, storage, databases, machine learning, and more, AWS enables businesses and individuals to innovate, deploy, and scale applications efficiently. It is trusted by millions of customers globally, including startups, enterprises, and government organizations.",
-    duration: "8 Weeks",
+    duration: "2 months",
     level: "Beginner",
     studentsEnrolled: "500+",
   }, {
