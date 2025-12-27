@@ -136,6 +136,11 @@ const ContactUs = () => {
                         <option value="web-dev">Web Development</option>
                         <option value="data-science">Data Science</option>
                         <option value="marketing">Digital Marketing</option>
+                        <option value="aws">Amazon Web Services</option>
+                        <option value="app-dev">Android App Development</option>
+                        <option value="AutoCAD">AutoCAD</option>
+                        <option value="BEVs">Battery Electric Vehicle(BEVs)</option>
+                        <option value=""></option>
                     </select>
 
                     <textarea

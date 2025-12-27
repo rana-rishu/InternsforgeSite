@@ -8,32 +8,32 @@ const navbar = [
                     {
                         name: "App Development",
                         slug: "app-developement",
-                        duration: "8 weeks",
+                        duration: "2 months",
                     },
                     {
                         name: "Amazon Web Services",
                         slug: "amazon-web-services",
-                        duration: "10 weeks",
+                        duration: "2 months",
                     },
                     {
                         name: "Data Science",
                         slug: "data-science",
-                        duration: "12 weeks",
+                        duration: "3 months",
                     },
                     {
                         name: "Data Analytics",
                         slug: "data-analytics",
-                        duration: "14 weeks",
+                        duration: "3 months",
                     },
                     {
                         name: "Cloud Computing",
                         slug: "amazon-web-services",
-                        duration: "8 weeks",
+                        duration: "2 months",
                     },
                     {
                         name: "Cybersecurity",
                         slug: "amazon-web-services",
-                        duration: "10 weeks",
+                        duration: "3 months",
                     },
                 ],
             },
@@ -43,7 +43,7 @@ const navbar = [
                     {
                         name: "UI/UX Design",
                         slug: "amazon-web-services",
-                        duration: "6 weeks",
+                        duration: "2 months",
                     },
                     {
                         name: "Graphic Design",
