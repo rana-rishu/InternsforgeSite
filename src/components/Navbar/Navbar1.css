@@ -35,7 +35,7 @@
 }
 
 .logo {
-  width: 40%;
+  width: 100px;
   height: fit-content;
 }
 
@@ -542,8 +542,8 @@
   }
 
   .logo {
-    width: 30px;
-    height: 30px;
+    width: 70px;
+    height: 40px;
   }
 
   .navcontainer {
