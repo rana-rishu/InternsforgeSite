@@ -33,7 +33,7 @@ const Coursedata = [
     slug: "data-analytics",
     Description:
       "Welcome to the Data Analytics training program! Domain introduces key concepts, tools, and techniques used to collect, process, and analyze data. Gain hands-on experience with real-world datasets, enhance your decision-making skills, and unlock the power of data to drive business insights and strategic solutions. Let’s get started!",
-    duration: "12 Weeks",
+    duration: "2 months",
     level: "Beginner",
     studentsEnrolled: "500+",
   },
