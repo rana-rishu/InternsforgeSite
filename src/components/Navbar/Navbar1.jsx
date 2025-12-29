@@ -39,6 +39,7 @@ function Navbar1() {
   const selectedCourses =
     activeMenu.find((m) => m.category === selectedCategory)?.courses || [];
 
+
   return (
     <div className="navbody">
       <div className="navcontainer" onMouseLeave={handleMenuLeave}>
@@ -200,8 +201,8 @@ function Navbar1() {
               ))}
 
               <li className="mobile-section">
-                <Link to="/" onClick={() => setMobileMenuOpen(false)}>
-                  <button className="mobile-contact">Contact us</button>
+                <Link to="/contactus" onClick={() => setMobileMenuOpen(false)}>
+                  <button className="mobile-contact" >Contact us</button>
                 </Link>
               </li>
             </ul>

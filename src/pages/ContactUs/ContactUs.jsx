@@ -56,38 +56,10 @@ const ContactUs = () => {
 
     return (
         <div className="contact-container">
-            {/* Left Side: Testimonial */}
-            <div className="left-content">
-                <h1>Set your goals high,<br />We'll help you achieve!</h1>
-                <span className="quote-icon">❝</span>
-                <p className="testimonial-text">
-                    "Before joining INTERNSLOOM, I struggled to bridge the gap between academic theory and industry expectations. The mentorship and real-world project exposure I received here were game-changers. I didn't just learn 'how' to code; I learned how to build products that solve real problems."
-                </p>
 
-                <div className="profile-section">
-                    <img src="https://via.placeholder.com/100" alt="Profile" />
-                    <h3 className="profile-name">Rishu Rana</h3>
-                    <p className="profile-role">Developer</p>
-                </div>
-            </div>
-            <div className="left-content">
-                <h1>Be the Best You,<br />Upskill Today!</h1>
-                <span className="quote-icon">❝</span>
-                <p className="testimonial-text">
-                    "INTERNSLOOM helped me land my dream job! My old job wasn't going anywhere,
-                    and I felt stuck. I saw an ad for the courses and decided to try.
-                    The courses were clear and easy to follow. Thanks to InternsLoom,
-                    my career is finally on track."
-                </p>
 
-                <div className="profile-section">
-                    <img src="https://via.placeholder.com/100" alt="Profile" />
-                    <h3 className="profile-name">Preet Mishra</h3>
-                    <p className="profile-role">Developer</p>
-                </div>
-            </div>
 
-            {/* Right Side: Form */}
+            {/* left Side: Form */}
             <div className="form-card">
                 <h2>We'll get back to you shortly.</h2>
                 <p className="form-desc">
@@ -161,6 +133,38 @@ const ContactUs = () => {
                 <p className="privacy-note">
                     * By providing information in this form, you agree to Privacy & Policy
                 </p>
+            </div>
+
+            {/* Right Side: Testimonial */}
+
+            <div className="left-content">
+                <h1>Set your goals high,<br />We'll help you achieve!</h1>
+                <span className="quote-icon">❝</span>
+                <p className="testimonial-text">
+                    "Before joining INTERNSLOOM, I struggled to bridge the gap between academic theory and industry expectations. The mentorship and real-world project exposure I received here were game-changers. I didn't just learn 'how' to code; I learned how to build products that solve real problems."
+                </p>
+
+                <div className="profile-section">
+                    <img src="https://via.placeholder.com/100" alt="Profile" />
+                    <h3 className="profile-name">Rishu Rana</h3>
+                    <p className="profile-role">Developer</p>
+                </div>
+            </div>
+            <div className="left-content">
+                <h1>Be the Best You,<br />Upskill Today!</h1>
+                <span className="quote-icon">❝</span>
+                <p className="testimonial-text">
+                    "INTERNSLOOM helped me land my dream job! My old job wasn't going anywhere,
+                    and I felt stuck. I saw an ad for the courses and decided to try.
+                    The courses were clear and easy to follow. Thanks to InternsLoom,
+                    my career is finally on track."
+                </p>
+
+                <div className="profile-section">
+                    <img src="https://via.placeholder.com/100" alt="Profile" />
+                    <h3 className="profile-name">Preet Mishra</h3>
+                    <p className="profile-role">Developer</p>
+                </div>
             </div>
         </div>
     );
