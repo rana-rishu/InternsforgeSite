@@ -29,7 +29,7 @@ const Component = () => {
             app. Empower yourself to succeed in your carrers, passion and
             personal growth journey.
           </p>
-          <button className="explore-btn" > Connect with us </button>
+          <button className="explore-btn" onClick={() => window.location.href = "/contactus"}> Connect with us </button >
         </div>
         <div className="hero-right">
           <img src={knowledge} />
