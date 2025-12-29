@@ -29,7 +29,7 @@
 }
 
 .logo-link {
-  display:flexbox;
+  display: flex;
   align-items: center;
   z-index: 10;
 }

@@ -2,9 +2,9 @@
   margin-left: 2%;
   width: 90%;
   overflow: hidden;
-  /* position: absolute; */
+  position: absolute;
   flex: 0 0 5%;
-  /* display: flex; */
+  display: flex;
   gap: 3%;
   height: 15%;
   flex-direction: column;

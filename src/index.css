@@ -14,7 +14,6 @@ html {
   color: #333; /* Default text color for the page */
 }
 body {
-  background-color: beige;
   /* margin: 0px;
   padding: 10px; */
   /* Removed overflow-x: hidden from body as it's generally best applied to specific containers */
